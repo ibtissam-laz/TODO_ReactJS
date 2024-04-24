@@ -162,7 +162,7 @@ export default function Tasks() {
                     color="success" 
                 />
                 </ListItemIcon>
-                <ListItemText id={labelId} primary={`${task.tache}`} />
+                <ListItemText id={labelId} primary={`${task.tache}`} style={{marginRight: '100px'}}/>
             </ListItemButton>
             </ListItem>
         );
